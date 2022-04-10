@@ -7,6 +7,7 @@ authors = ["Tirth Patel <tirth.baroda@gmail.com>"]
 [tool.poetry.dependencies]
 python = "^3.9"
 tools = "^0.1.9"
+Flask = "^2.1.1"
 
 [tool.poetry.dev-dependencies]
 
