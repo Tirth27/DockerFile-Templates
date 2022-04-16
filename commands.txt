@@ -1,0 +1,17 @@
+# Build container with ubuntu:v2 name
+docker-compose up -d
+
+# Get container Detail
+docker ps
+
+# Get Container IP
+docker inspect -f '{{range.NetworkSettings.Networks}}{{.IPAddress}}{{end}}' <CONTAINER NAME>
+
+# SSH TO container 2 from 1
+ssh -X u2@<CONTAINER 2-OR-1 IP>
+
+# Password will be 
+u2password
+
+# NOTE:
+Here both the container has u2 user. With 'u2password' as password
