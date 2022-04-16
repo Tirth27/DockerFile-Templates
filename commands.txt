@@ -14,4 +14,9 @@ ssh -X u2@<CONTAINER 2-OR-1 IP>
 u2password
 
 # NOTE:
-Here both the container has u2 user. With 'u2password' as password
+Here both the container has u2 user. With 'u2password' as password.
+Also, to login as root. SSH into the required container and then type 'su'. Password is: root
+
+# To view Root user password
+https://www.techrepublic.com/article/how-to-change-a-root-password-in-a-docker-image/
+cat /etc/shadow | grep root
