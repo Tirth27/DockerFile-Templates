@@ -1,0 +1,4 @@
+docker pull qgis/qgis
+docker run -d qgis/qgis
+
+docker run -d -i libredwg-master
